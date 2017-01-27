@@ -1,4 +1,10 @@
 ============================
+Version 6.4.1 - Jan 27, 2017
+============================
+ - Updated Android Urban Airship SDK to 8.2.5
+ - Update Android Urban Airship SDK to use latest version of play services.
+
+============================
 Version 6.4.0 - Jan 6, 2017
 ============================
  - Added support for configuring logging levels.
