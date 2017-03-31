@@ -9,7 +9,7 @@
     <license>Apache 2.0</license>
     <keywords>cordova,urbanairship</keywords>
     <repo>https://github.com/urbanairship/phonegap-ua-push.git</repo>
-    
+
     <engines>
         <engine name="cordova-android" version=">=4.1.0" />
         <engine name="cordova-ios" version=">=4.3.0" />
@@ -29,7 +29,7 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-        
+
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <meta-data android:name="com.urbanairship.autopilot" android:value="com.urbanairship.cordova.CordovaAutopilot" />
 
@@ -137,10 +137,10 @@
         <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
 
     </platform>
-    
+
     <!-- ios -->
     <platform name="ios">
-        
+
          <!-- Background push -->
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
@@ -149,11 +149,11 @@
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-            <string>Sample location</string>
+            <string>Get the best local recommendations</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>Sample location, when in use</string>
+            <string>Get the best local recommendations</string>
         </config-file>
 
         <config-file target="config.xml" parent="/widget">
